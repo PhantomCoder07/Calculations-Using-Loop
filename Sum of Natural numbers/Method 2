@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int n,i=1,sum=0;
+    int num,i=1,sum=0;
     printf ("Enter n term: ");
-    scanf ("%d",&n);
-    while (i<=n)
+    scanf ("%d",&num);
+    while (i<=num)
     {
         sum+=i;
         i++;
     }
-    Printf ("Sum of %d natural numbers: %d\n",n,sum);
+    Printf ("Sum of %d natural numbers: %d\n",num,sum);
     return 0;
 }
