@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int n,i=1,sum=0;
+    printf ("Enter n term: ");
+    scanf ("%d",&n);
+    do
+    {
+        sum+=i;
+        i++;
+    }
+    while (i<=n);
+    printf ("Sum of %d natural numbers: %d\n",n,sum);
+    return 0;
+}
