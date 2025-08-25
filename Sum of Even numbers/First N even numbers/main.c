@@ -66,25 +66,3 @@ int main()
     printf ("\nSum of first %d even numbers: %d\n",num,sum);
     return 0;
 }
-// Function
-#include <stdio.h>
-int even();
-int main()
-{
-    printf ("\nSum of even numbers: %d\n",even());
-    return 0;
-}
-int even()
-{
-    int i, a=2,num,sum=0;
-    printf ("Enter n term: ");
-    scanf ("%d",&num);
-    printf ("First %d even number: ",num);
-    for (i=1; i<=num; i++)
-    {
-        printf ("%d ",a);
-        sum+=a;
-        a+=2;
-    }
-    return sum;
-}
